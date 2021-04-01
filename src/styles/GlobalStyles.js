@@ -6,14 +6,16 @@ const root = {
 }
 
 const GlobalStyle = createGlobalStyle`
+  *, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
   body {
     background: ${root.backgroundColor};
     color: ${root.textColor};
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
   }
 `;
 
