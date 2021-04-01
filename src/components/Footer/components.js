@@ -34,11 +34,8 @@ export const Features = styled.ul`
 
   & > li {
     padding-left: 20px;
+    padding-bottom: 4px;
   }
-
-  /* & > Li:first-child{
-    padding-left: 0;
-  } */
 `;
 
 export const Li = styled.li`

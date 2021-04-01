@@ -1,5 +1,13 @@
 import React from 'react';
-import { Copyright, Div, Divider, Features, Info, Language, Li } from './components';
+import { 
+  Copyright, 
+  Div, 
+  Divider, 
+  Features, 
+  Info, 
+  Language, 
+  Li 
+} from './components';
 
 function Footer() {
   return(
